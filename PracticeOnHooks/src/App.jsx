@@ -7,6 +7,7 @@ import InputBtn from "./Components/InputBtn";
 import ToDoList from "./Tasks/ToDoList";
 import Profile from "./Tasks/Profile";
 import Shopping from "./Tasks/Shopping";
+import FetchAPI from "./Components/FetchAPI";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -19,7 +20,8 @@ function App() {
       {/* <InputBtn/> */}
       {/* <ToDoList /> */}
       {/* <Profile /> */}
-      <Shopping />
+      {/* <Shopping /> */}
+      <FetchAPI />
     </div>
   );
 }
